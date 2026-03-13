@@ -9,7 +9,8 @@ const Homepage = () => {
             <Header/>
             <main>
 
-
+                <Contador/>
+                <Slideshow/>
                 <Table/>
             </main>
         </>
