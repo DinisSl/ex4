@@ -1,6 +1,7 @@
 import "../assets/css/styles.css"
 import "../components/Header.jsx"
 import Header from "../components/Header.jsx";
+import Table from "../components/Table.jsx";
 
 const Homepage = () => {
     return (
@@ -8,8 +9,9 @@ const Homepage = () => {
             <Header/>
             <main>
 
+
+                <Table/>
             </main>
-            <Footer/>
         </>
     )
 }
