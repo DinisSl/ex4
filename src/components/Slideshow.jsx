@@ -4,7 +4,9 @@ const Slideshow = () => {
     return (
         <div id="box0">
             <div id="slideShow">
-                <img src={slide1} alt="img"/>
+                <img id="slideShowImg" src={slide1} alt="img"/>
+                <button id="back">{'<'}</button>
+                <button id="forward">{'>'}</button>
             </div>
         </div>
     )

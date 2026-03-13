@@ -2,7 +2,7 @@ const Contador = () => {
 
     return (
         <div id="contador">
-            235d 23h 5m 2s
+            Faltam 235d : 23h : 05m : 02s
         </div>
     )
 }
