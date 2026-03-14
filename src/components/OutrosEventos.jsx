@@ -37,10 +37,10 @@ const Imagem = () => {
 
 const OutrosEventos = () => {
     return (
-        <div className="container">
+        <>
             <Text/>
             <Imagem/>
-        </div>
+        </>
     )
 }
 

@@ -25,10 +25,10 @@ const Imagem = () => {
 
 const Descricao = () => {
     return (
-        <div className="container">
+        <>
             <Texto/>
             <Imagem/>
-        </div>
+        </>
     )
 }
 

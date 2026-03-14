@@ -1,5 +1,4 @@
 import "../assets/css/styles.css"
-import "../components/Header.jsx"
 import Header from "../components/Header.jsx";
 import Contador from "../components/Contador.jsx";
 import Slideshow from "../components/Slideshow.jsx";
@@ -14,11 +13,15 @@ const Homepage = () => {
             <Header/>
             <main>
                 <Contador/>
-                <Slideshow/>
-                <Descricao/>
-                <Parceiros/>
-                <OutrosEventos/>
-                <Table/>
+
+                <div className="container">
+                    <Slideshow/>
+                    <Descricao/>
+                    <Parceiros/>
+                    <OutrosEventos/>
+                    <Table/>
+                </div>
+
             </main>
         </>
     )
