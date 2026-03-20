@@ -3,15 +3,15 @@ import figuras from '../assets/json/entidades.json';
 
     const Entidades= figuras["Entidades"]
 
-    const Entidade = ({name,img,highlight,desc}) => {
+    const Entidade = ({nome,img,highlight,desc}) => {
 
 
     return (
         <div>
             <h2>
-                {name}
+                {nome}
             </h2>
-            <img src={img} alt={name}/>
+            <img src={img} alt={nome}/>
             <h2>
                 {highlight}
             </h2>
