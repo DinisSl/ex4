@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-image: url("../../../public/images/cartaz.jpeg") ;
+    background-image: url("cartaz.jpeg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

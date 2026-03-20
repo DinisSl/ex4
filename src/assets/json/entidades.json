@@ -4,22 +4,39 @@
   "Entidades": [
     {
       "nome": "Rui Pinto",
-      "img": "ruipinto.jpg",
+      "img": "https://via.placeholder.com/150",
       "highlight": "Vencedor 2025",
       "desc": "Vencedor da edição de 2025, destacando-se como um dos principais nomes do atletismo de estrada em Portugal."
     },
     {
       "nome": "Mariana Machado",
-      "img": "marianamachado.jpg",
+      "img": "slides-4.png",
       "highlight": "Tri-vencedora",
       "desc": "Atleta portuguesa de elite, venceu a prova três vezes, incluindo em 2025, dominando a competição feminina."
     },
     {
+      "nome": "André Pereira",
+      "img": "https://via.placeholder.com/150",
+      "highlight": "Top M20",
+      "desc": "Atleta de alto nível que alcançou uma das posições cimeiras na categoria M20 na edição de 2025."
+    },
+    {
+      "nome": "João Amaro",
+      "img": "https://via.placeholder.com/150",
+      "highlight": "Top M20",
+      "desc": "Destacou-se na categoria M20 em 2025, estando entre os melhores classificados da prova."
+    },
+    {
       "nome": "Pepe",
-      "img": "pepe.jpg",
+      "img": "https://via.placeholder.com/150",
       "highlight": "Participação especial",
       "desc": "Ex-futebolista do FC Porto e da Seleção Nacional, participou na edição de dezembro de 2025 com um tempo impressionante, atraindo grande atenção mediática."
+    },
+    {
+      "nome": "Quim Barreiros",
+      "img": "https://via.placeholder.com/150",
+      "highlight": "Mega concerto no final",
+      "desc": "Cantor"
     }
-
   ]
 }

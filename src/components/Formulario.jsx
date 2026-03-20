@@ -2,7 +2,7 @@ import {useState} from "react";
 
 const Formulario = () => {
 
-    const opcoes = ["A", "B", "C"];
+    const opcoes = ["A", "E", "I", "O", "U"];
 
     const [opcaoSelecionada, setOpcaoSelecionada] = useState("");
 
@@ -12,7 +12,7 @@ const Formulario = () => {
 
     return (
         <>
-            <h1>Opções</h1>
+            <h1>Qual a melhor vogal de todas?</h1>
             {
                 opcoes.map
                 (o =>
@@ -29,7 +29,7 @@ const Formulario = () => {
                     </>
                 )
             }
-            <p>A nossa opção selecionada é: {opcaoSelecionada}</p>
+            <button onClick={() => alert("A melhor vogal de todos os tempos é " + opcaoSelecionada)}>Submeter</button>
         </>
     )
 }

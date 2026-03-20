@@ -6,14 +6,12 @@ import figuras from '../assets/json/entidades.json';
 
     const Entidade = ({nome,img,highlight,desc}) => {
 
-        const IMGPATH= "../../public/images/"
-
         return (
         <div>
             <h2>
                 {nome}
             </h2>
-            <img src={IMGPATH + img} alt={nome} />
+            <img src={img} alt={nome} />
             <h2>
                 {highlight}
             </h2>

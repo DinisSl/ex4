@@ -1,5 +1,3 @@
-import img1 from "../../public/images/malta_correr.png";
-
 const Texto = () => {
     return (
         <div id="box1">
@@ -17,7 +15,7 @@ const Texto = () => {
 const Imagem = () => {
     return (
         <div id="box2">
-            <img src={img1} alt="img" height="270"/>
+            <img src="malta_correr.png" alt="img" height="270"/>
             <figcaption>S. Silvestre Porto 2025</figcaption>
         </div>
     )

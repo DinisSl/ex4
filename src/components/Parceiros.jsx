@@ -1,22 +1,18 @@
-import img1 from "../../public/images/lidl.png";
-import img2 from "../../public/images/camara_porto.png";
-import img3 from "../../public/images/agora_porto.png";
-
 const Parceiros = () => {
     return (
         <div id="box3">
             <figure>
-                <img src={img1}
+                <img src="lidl.png"
                      title="Publicidade"/>
                 <figcaption>Os nossos parceiros: <a href="https://www.lidl.pt/">Lidl Portugal</a>.</figcaption>
             </figure>
             <figure>
-                <img src={img2}
+                <img src="camara_porto.png"
                      title="Publicidade"/>
                 <figcaption>Os nossos parceiros: <a href="https://www.cm-porto.pt/">C.M.Porto</a>.</figcaption>
             </figure>
             <figure>
-                <img src={img3}
+                <img src="agora_porto.png"
                      title="Publicidade"/>
                 <figcaption>Os nossos parceiros: <a href="https://www.agoraporto.pt/">Ágora Cultura e Desporto</a>.
                 </figcaption>
