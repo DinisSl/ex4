@@ -28,13 +28,13 @@
     },
     {
       "nome": "Pepe",
-      "img": "https://via.placeholder.com/150",
+      "img": "pepe.jpg",
       "highlight": "Participação especial",
       "desc": "Ex-futebolista do FC Porto e da Seleção Nacional, participou na edição de dezembro de 2025 com um tempo impressionante, atraindo grande atenção mediática."
     },
     {
       "nome": "Quim Barreiros",
-      "img": "https://via.placeholder.com/150",
+      "img": "Quim.png",
       "highlight": "Mega concerto no final",
       "desc": "Cantor"
     }
