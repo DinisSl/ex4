@@ -15,7 +15,7 @@ const Texto = () => {
 const Imagem = () => {
     return (
         <div id="box2">
-            <img src="malta_correr.png" alt="img" height="270"/>
+            <img src="malta_correr.jpg" alt="img" height="270"/>
             <figcaption>S. Silvestre Porto 2025</figcaption>
         </div>
     )

@@ -25,7 +25,7 @@ const Text = () => {
 const Imagem = () => {
     return (
         <div id="box5">
-            <img src="malta_parada.png" alt={"malta_parada"}/>
+            <img src="malta_parada.jpg" alt={"malta_parada"}/>
             <figcaption> Em 2025 reunimos atletas de 66 países diferentes. Saiba mais em: <a
                 href="https://www.agoraporto.pt/noticias/sao-silvestre-do-porto-reune-atletas-de-66-paises-metade-deles-com-menos-de-35-anos">agoraporto.pt</a>
             </figcaption>
