@@ -4,7 +4,7 @@
   "Entidades": [
     {
       "nome": "Rui Pinto",
-      "img": "https://via.placeholder.com/150",
+      "img": "slides-5.png",
       "highlight": "Vencedor 2025",
       "desc": "Vencedor da edição de 2025, destacando-se como um dos principais nomes do atletismo de estrada em Portugal."
     },
@@ -15,16 +15,16 @@
       "desc": "Atleta portuguesa de elite, venceu a prova três vezes, incluindo em 2025, dominando a competição feminina."
     },
     {
-      "nome": "André Pereira",
-      "img": "https://via.placeholder.com/150",
-      "highlight": "Top M20",
-      "desc": "Atleta de alto nível que alcançou uma das posições cimeiras na categoria M20 na edição de 2025."
+      "nome": "Top 3 Masculino 2025",
+      "img": "top3_masc_2025.png",
+      "highlight": "Top 3",
+      "desc": "Pódio do ano anterior: 1º Rui Pinto 2º André Pereira 3º João Amaro"
     },
     {
-      "nome": "João Amaro",
-      "img": "https://via.placeholder.com/150",
-      "highlight": "Top M20",
-      "desc": "Destacou-se na categoria M20 em 2025, estando entre os melhores classificados da prova."
+      "nome": "Top 3 Feminino 2025",
+      "img": "top3_fem_2025.png",
+      "highlight": "Top 3",
+      "desc": "Pódio do ano anterior: 1º Mariana Machado 2º Susana Godinho 3º Monica Silva"
     },
     {
       "nome": "Pepe",
