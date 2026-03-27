@@ -11,14 +11,12 @@ const App = () => {
     return (
         <BrowserRouter>
             <Routes>
-                {/*<Route path="/" element={<TemplatePage/>}>*/}
                 <Route index element={<Homepage/>}/>
                 <Route path="/formcandidatura" element={<FormCandidatura/>}/>
                 <Route path="/bilheteira" element={<Bilheteira/>}/>
                 <Route path="/respotastd" element={<RespostaStd/>}/>
                 <Route path="/inquerito" element={<Formulario />} />
                 <Route path="/resultados" element={<Resultados />} />
-                {/*</Route>*/}
             </Routes>
         </BrowserRouter>
     )
