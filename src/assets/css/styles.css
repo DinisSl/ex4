@@ -306,69 +306,109 @@ form fieldset {
 */
 
 
+
+.corrida-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    min-height: 60vh;
+}
+
 .corrida-container {
-    width: 450px;
-    margin: 40px auto;
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
     padding: 30px;
-    border: 1px solid #eee;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-    background-color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.corrida-container h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #2c3e50;
-    border-bottom: 2px solid #f0f0f0;
-    padding-bottom: 10px;
-}
 
-.corrida-container .ticket {
+.ticket {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
-    padding: 12px 15px;
     background-color: #f8f9fa;
-    border-radius: 8px;
-    transition: background 0.3s ease;
+    margin-bottom: 15px;
+    padding: 16px;
+    border-radius: 10px;
 }
 
-.corrida-container .ticket:hover {
-    background-color: #f1f1f1;
+.ticket h3 {
+    font-size: 15px;
+    margin: 0;
+    color: #333;
+    line-height: 1.4;
+    flex: 1; /* Ocupa o espaço disponível */
+    padding-right: 10px;
 }
 
-.corrida-container button {
-    padding: 8px 16px;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
+
+.ticket-controlos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.ticket-controlos button {
+    width: 34px;
+    height: 34px;
     border: none;
     border-radius: 6px;
     background-color: #3498db;
     color: white;
-    transition: transform 0.1s, background-color 0.2s;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.2s;
 }
 
-.corrida-container button:hover {
+.ticket-controlos button:hover {
     background-color: #2980b9;
 }
 
-.corrida-container button:active {
-    transform: scale(0.96);
+.ticket-controlos span {
+    font-weight: 600;
+    font-size: 16px;
+    min-width: 25px;
+    text-align: center;
 }
 
-.corrida-container .total {
-    margin-top: 25px;
-    padding-top: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: right;
-    color: #27ae60;
-    border-top: 2px dashed #eee;
+
+.total-display {
+    margin: 25px 0 15px 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #222;
 }
 
+
+.bt-comprar {
+    width: 100%;
+    padding: 14px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.1s, background 0.2s;
+}
+
+.bt-comprar:hover {
+    background-color: #2980b9;
+}
+
+.bt-comprar:active {
+    transform: scale(0.98);
+}
 
 /*
 *********************** Footer **************************************************************
